@@ -69,12 +69,16 @@
 ### **Specialized Concentrations**
 💡 *Students must choose one concentration track from the following:*
 
-### **📌 Computer Science Concentration (🟦 Blue)**
-| **Code**  | **Course Name**                | **Credit Hrs** | **Prerequisite** |
-|----------|--------------------------------|------------|----------------|
-| 3344     | Design Patterns                | 3          | CS 2341       |
-| 3353     | Deep Learning                  | 3          | CS 3352       |
-| 3372     | Mobile Application Development | 3          | CS 2314       |
+## 📌 Computer Science Concentration
+
+| **Code**  | **Course Name**                                      | **Credit Hrs** | **Prerequisite** |
+|----------|--------------------------------------------------|------------|----------------|
+| 3344     | Design Patterns                                | 3          | CS 2341       |
+| 3353     | Deep Learning                                  | 3          | CS 3352       |
+| 3372     | Mobile Application Development                | 3          | CS 2314       |
+| 4328     | Emerging Technologies in Computer Science     | 3          | CS 3352       |
+| 4369     | Software Security                             | 3          | CS 3362       |
+| 4373     | User Experience and User Interface Design     | 3          | CS 3371       |
 
 ---
 
