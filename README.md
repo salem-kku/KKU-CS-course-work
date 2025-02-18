@@ -8,8 +8,10 @@ flowchart TB
     MATH1(0381MATH-3 Calculus 1)
     ENG1(0522ENG-5 Intensive English Program)
     MOD(0212CTR-2 Moderation)
-    EMPTY1[" "]  %% Adds vertical spacing inside the subgraph
   end
+
+  %% Explicit connection for spacing
+  Sem1 -->|Next| Sem2
 
   %% === Second Semester ===
   subgraph Sem2[Semester 2]
@@ -21,8 +23,9 @@ flowchart TB
     PHYS(1308PHYS-3 Principles of Physics)
     CHEM(1309CHEM-3 Chemistry)
     ETH(4256CIS-2 Computing Ethics)
-    EMPTY2[" "]
   end
+
+  Sem2 -->|Next| Sem3
 
   %% === Third Semester ===
   subgraph Sem3[Semester 3]
@@ -34,8 +37,9 @@ flowchart TB
     SC(2261CIS-2 Science Communication)
     LA(0383MATH-3 Linear Algebra)
     VOL(0291VOLN-2 Volunteering Skills)
-    EMPTY3[" "]
   end
+
+  Sem3 -->|Next| Sem4
 
   %% === Fourth Semester ===
   subgraph Sem4[Semester 4]
@@ -46,8 +50,9 @@ flowchart TB
     AP(2314CCS-3 Advanced Programming)
     OR(2224CCS-2 Operations Research)
     ARAB(0221ARAB-2 Arabic Language Skills)
-    EMPTY4[" "]
   end
+
+  Sem4 -->|Next| Sem5
 
   %% === Fifth Semester ===
   subgraph Sem5[Semester 5]
@@ -59,8 +64,9 @@ flowchart TB
     SEC(3362CCS-3 Computer & Network Security)
     GD(3371CCS-3 Game Design & Development)
     WD(3342CCS-3 Web Engineering)
-    EMPTY5[" "]
   end
+
+  Sem5 -->|Next| Sem6
 
   %% === Sixth Semester ===
   subgraph Sem6[Semester 6]
@@ -71,8 +77,9 @@ flowchart TB
     CON1(Concentration Course 1)
     CON2(Concentration Course 2)
     CON3(Concentration Course 3)
-    EMPTY6[" "]
   end
+
+  Sem6 -->|Next| Sem7
 
   %% === Seventh Semester ===
   subgraph Sem7[Semester 7]
@@ -84,8 +91,9 @@ flowchart TB
     CON4(Concentration Course 4)
     CON5(Concentration Course 5)
     CON6(Concentration Course 6)
-    EMPTY7[" "]
   end
+
+  Sem7 -->|Next| Sem8
 
   %% === Eighth Semester (Final Training) ===
   subgraph Sem8[Semester 8]
@@ -112,7 +120,7 @@ flowchart TB
   IOT --> SEC
   CT --> CP
 
-  %% === Styling to Increase Font Size ===
+  %% === Styling for Larger Titles ===
   style Sem1 fill:#f4f4f4,stroke:#333,stroke-width:2px,font-size:18px
   style Sem2 fill:#f4f4f4,stroke:#333,stroke-width:2px,font-size:18px
   style Sem3 fill:#f4f4f4,stroke:#333,stroke-width:2px,font-size:18px
