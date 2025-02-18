@@ -3,58 +3,43 @@ flowchart TB
 
   %% === First Semester ===
   PS(Problem Solving & Programming) --> IP(Introduction to Programming)
-  MATH1(Calculus 1)
-  ENG1(Intensive English)
+  MATH1(Calculus 1) --- ENG1(Intensive English)
   MOD(Moderation)
 
   %% === Second Semester ===
   IP --> OOP(Object-Oriented Programming)
-  PROB(Probability & Statistics)
-  MATH2(Calculus 2)
-  ENG2(Specialized English)
-  PHYS(Principles of Physics)
-  CHEM(Chemistry)
-  ETH(Computing Ethics)
+  PROB(Probability & Statistics) --- MATH2(Calculus 2)
+  ENG2(Specialized English) --- PHYS(Principles of Physics)
+  CHEM(Chemistry) --- ETH(Computing Ethics)
 
   %% === Third Semester ===
   OOP --> DS(Data Structures & Algorithms)
-  DBMS(Database Systems)
-  COA(Computer Organization & Architecture)
-  DM(Discrete Mathematics)
-  SC(Science Communication)
-  LA(Linear Algebra)
-  VOL(Volunteering Skills)
+  DBMS(Database Systems) --- COA(Computer Organization & Architecture)
+  DM(Discrete Mathematics) --- SC(Science Communication)
+  LA(Linear Algebra) --- VOL(Volunteering Skills)
 
   %% === Fourth Semester ===
   DS --> ALG(Design & Analysis of Algorithms)
-  OS(Operating Systems)
-  SE(Software Engineering)
-  AP(Advanced Programming)
-  OR(Operations Research)
+  OS(Operating Systems) --- SE(Software Engineering)
+  AP(Advanced Programming) --- OR(Operations Research)
   ARAB(Arabic Language Skills)
 
   %% === Fifth Semester ===
-  CN(Computer Networks)
-  TI(Technological Innovation)
+  CN(Computer Networks) --- TI(Technological Innovation)
   AI(Artificial Intelligence) --> ML(Machine Learning)
-  SEC(Computer Security)
-  GD(Game Development)
+  SEC(Computer Security) --- GD(Game Development)
   WD(Web Development)
 
   %% === Sixth Semester ===
-  PD(Parallel & Distributed Computing)
-  SPM(Software Project Management)
-  CON1(Concentration Course 1)
-  CON2(Concentration Course 2)
+  PD(Parallel & Distributed Computing) --- SPM(Software Project Management)
+  CON1(Concentration Course 1) --- CON2(Concentration Course 2)
   CON3(Concentration Course 3)
 
   %% === Seventh Semester ===
   CP(Career Preparation)
-  COMP(Compilers)
-  IOT(Internet of Things)
+  COMP(Compilers) --- IOT(Internet of Things)
   PROJ(Graduation Project) --> SPM
-  CON4(Concentration Course 4)
-  CON5(Concentration Course 5)
+  CON4(Concentration Course 4) --- CON5(Concentration Course 5)
   CON6(Concentration Course 6)
 
   %% === Eighth Semester ===
