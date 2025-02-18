@@ -120,10 +120,20 @@
 
 ---
 
-## **📌 University Electives**
+## 🎓 University Electives
 💡 *Students can choose from the following electives:*
-| **Code** | **Course Name**              | **Credit Hrs** | **Prerequisite** |
-|----------|------------------------------|------------|----------------|
-| 0211CTR-2 | Ethics & Values              | 2          | -              |
-| 0213CTR-2 | Rights                       | 2          | -              |
+
+
+| **Code**      | **Course Name**                      | **Credit Hrs** | **Prerequisite** |
+|--------------|----------------------------------|------------|----------------|
+| 0211CTR-2   | Ethics & Values                 | 2          | -              |
+| 0213CTR-2   | Rights                          | 2          | -              |
+| 0214CTR-2   | Building Awareness              | 2          | -              |
+| 0215CITI-2  | Intro to National Culture       | 2          | -              |
+| 0231CTR-2   | Thought & Philosophy            | 2          | -              |
+| 0241Art-2   | Arts                            | 2          | -              |
+| 0251BUS-2   | Principles of Entrepreneurship  | 2          | -              |
+| 0271CITI-2  | Citizenship                     | 2          | -              |
+| 0272CITI-2  | National History                | 2          | -              |
+| 0281PUH-2   | Health Awareness                | 2          | -              |
 
