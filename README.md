@@ -111,3 +111,67 @@
 | 4882CCS-8    | Cooperative Training            | 8          | 0401MHR-4      |
 | **Total**     |                                 | **8**      |                |
 
+
+## Computer Science Concentration
+| **Code**  | **Course Name**                                      | **Credit Hrs** | **Prerequisite** |
+|----------|--------------------------------------------------|------------|----------------|
+| 3344     | Design Patterns                                | 3          | CS 2341       |
+| 3353     | Deep Learning                                  | 3          | CS 3352       |
+| 3372     | Mobile Application Development                | 3          | CS 2314       |
+| 4328     | Emerging Technologies in Computer Science     | 3          | CS 3352       |
+| 4369     | Software Security                             | 3          | CS 3362       |
+| 4373     | User Experience and User Interface Design     | 3          | CS 3371       |
+
+---
+
+## Gaming Concentration
+| **Code**  | **Course Name**                          | **Credit Hrs** | **Prerequisite** |
+|----------|------------------------------------|------------|----------------|
+| 3374     | 3D Modelling and Animation        | 3          | CS 2314       |
+| 3375     | Human-Computer Interaction        | 3          | CS 2314       |
+| 3376     | Advanced Game Development        | 3          | CS 3371       |
+| 4377     | Game Programming                  | 3          | CS 3371       |
+| 4378     | Virtual and Augmented Reality     | 3          | CS 3374       |
+| 4379     | Selected Topics in Gaming         | 3          | CS 3376       |
+
+---
+
+## Cybersecurity Concentration
+| **Code**  | **Course Name**                             | **Credit Hrs** | **Prerequisite** |
+|----------|---------------------------------------|------------|----------------|
+| 3363     | Computer and Network Security-2      | 3          | CS 3362       |
+| 3364     | Cryptography                         | 3          | MATH 0384     |
+| 3365     | Web Security                         | 3          | CS 2314       |
+| 4366     | Digital Forensics Fundamentals       | 3          | CS 3363       |
+| 4367     | Emerging Technologies in Cybersecurity | 3        | CS 3364       |
+| 4368     | Machine Learning for Cybersecurity  | 3          | CS 3352       |
+
+---
+
+## Artificial Intelligence Concentration
+| **Code**  | **Course Name**                      | **Credit Hrs** | **Prerequisite** |
+|----------|--------------------------------|------------|----------------|
+| 3353     | Deep Learning                  | 3          | CS 3352       |
+| 3354     | Emerging Technologies in AI    | 3          | CS 3251       |
+| 3355     | Computer Vision                | 3          | MATH 0383     |
+| 4356     | AI Applications                | 3          | CS 3353       |
+| 4357     | Natural Language Processing    | 3          | CS 3353       |
+| 4358     | Mobile Autonomous Agents       | 3          | CS 3355       |
+
+---
+
+## University Electives
+| **Code**  | **Course Name**                        | **Credit Hrs** | **Prerequisite** |
+|----------|----------------------------------|------------|----------------|
+| 0211CTR-2 | Ethics & Values                 | 2          | -              |
+| 0213CTR-2 | Rights                          | 2          | -              |
+| 0214CTR-2 | Building Awareness              | 2          | -              |
+| 0215CITI-2 | Intro to National Culture      | 2          | -              |
+| 0231CTR-2 | Thought & Philosophy            | 2          | -              |
+| 0241Art-2 | Arts                            | 2          | -              |
+| 0251BUS-2 | Principles of Entrepreneurship  | 2          | -              |
+| 0271CITI-2 | Citizenship                    | 2          | -              |
+| 0272CITI-2 | National History               | 2          | -              |
+| 0281PUH-2 | Health Awareness                | 2          | -              |
+
+
