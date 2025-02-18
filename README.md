@@ -1,10 +1,13 @@
 # Teaching course work
 ```mermaid
-graph TD;
+graph TB;
     %% First Year - No Prerequisites
     MOD(0212CTR-2 Moderation) -->|None| ENG1(0522ENG-5 Intensive English Program);
     MOD -->|None| MATH1(0381MATH-3 Calculus 1);
     MOD -->|None| PS(1311CCS-3 Problem Solving & Programming);
+    
+    %% Spacing Node to Improve Readability
+    SPACE1(( )) --> MOD;
 
     %% Second Year
     ENG1 --> ENG2(0292ENG-2 Specialized English Language);
@@ -15,6 +18,9 @@ graph TD;
     PS --> IP(1312CCS-3 Introduction to Programming);
     ETH(4256CIS-2 Computing Ethics);
 
+    %% Spacing Node
+    SPACE2(( )) --> PROB;
+
     %% Third Year
     VOL(0291VOLN-2 Volunteering Skills);
     LA(0383MATH-3 Linear Algebra);
@@ -23,6 +29,9 @@ graph TD;
     COA(2321CCS-3 Computer Organization & Architecture) --> PS;
     DBMS(2321CIS-3 Database Management Systems);
     OOP(2413CCS-4 Object-Oriented Programming) --> IP;
+
+    %% Spacing Node
+    SPACE3(( )) --> OOP;
 
     %% Fourth Year
     ARAB(0221ARAB-2 Arabic Language Skills);
@@ -42,6 +51,9 @@ graph TD;
     GD(3371CCS-3 Game Design & Development) --> OOP;
     Free(Free Course);
 
+    %% Spacing Node
+    SPACE4(( )) --> ML;
+
     %% Sixth Year
     PD(3325CCS-3 Parallel & Distributed Computing) --> OS;
     ALG(3332CCS-3 Design & Analysis of Algorithms) --> DS;
@@ -49,6 +61,9 @@ graph TD;
     CON1(Concentration Course 1);
     CON2(Concentration Course 2);
     CON3(Concentration Course 3);
+
+    %% Spacing Node
+    SPACE5(( )) --> SPM;
 
     %% Seventh Year
     CP(0401MHR-4 Career Preparation Skills);
