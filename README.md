@@ -2,10 +2,10 @@
 ```mermaid
 graph TD;
     %% First Year
-    MOD(Moderation) -->|None| ENG1(Intensive English Program)
-    MATH1(Calculus 1) -->|None| MATH2(Calculus 2)
-    ENG1 -->|None| ENG2(Specialized English Language)
-    PS(Problem Solving & Programming) -->|None| IP(Introduction to Programming)
+    0212CTR-2 Moderation -->|None|
+    0381MATH-3 Calculus 1 -->|None| 
+    0522ENG-5 Intensive English Program -->|None|
+    Problem Solving & Programming -->|None|
 
     %% Second Year
     MATH2 -->|S| PROB(Probability & Statistics)
