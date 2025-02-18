@@ -2,18 +2,18 @@
 flowchart TB
 
   %% === First Semester ===
-  subgraph Sem1[**Semester 1**]
+  subgraph Sem1[Semester 1]
     direction TB
     PS(1311CCS-3 Problem Solving & Programming)
     MATH1(0381MATH-3 Calculus 1)
     ENG1(0522ENG-5 Intensive English Program)
     MOD(0212CTR-2 Moderation)
   end
-  
-  SPACE_1(( ))  %% Adds spacing between Semesters
+
+  Sem1 -.-> Sem2  %% Invisible Link for Spacing
 
   %% === Second Semester ===
-  subgraph Sem2[**Semester 2**]
+  subgraph Sem2[Semester 2]
     direction TB
     IP(1312CCS-3 Introduction to Programming)
     PROB(0384MATH-3 Probability & Statistics)
@@ -24,10 +24,10 @@ flowchart TB
     ETH(4256CIS-2 Computing Ethics)
   end
 
-  SPACE_2(( ))
+  Sem2 -.-> Sem3
 
   %% === Third Semester ===
-  subgraph Sem3[**Semester 3**]
+  subgraph Sem3[Semester 3]
     direction TB
     OOP(2413CCS-4 Object-Oriented Programming)
     DBMS(2321CIS-3 Database Management Systems)
@@ -38,10 +38,10 @@ flowchart TB
     VOL(0291VOLN-2 Volunteering Skills)
   end
 
-  SPACE_3(( ))
+  Sem3 -.-> Sem4
 
   %% === Fourth Semester ===
-  subgraph Sem4[**Semester 4**]
+  subgraph Sem4[Semester 4]
     direction TB
     DS(2431CCS-4 Data Structures & Algorithms)
     OS(2323CCS-3 Operating Systems)
@@ -51,10 +51,10 @@ flowchart TB
     ARAB(0221ARAB-2 Arabic Language Skills)
   end
 
-  SPACE_4(( ))
+  Sem4 -.-> Sem5
 
   %% === Fifth Semester ===
-  subgraph Sem5[**Semester 5**]
+  subgraph Sem5[Semester 5]
     direction TB
     CN(2461CCS-4 Computer Networks)
     TI(3226CCS-2 Technological Innovation)
@@ -65,10 +65,10 @@ flowchart TB
     WD(3342CCS-3 Web Engineering)
   end
 
-  SPACE_5(( ))
+  Sem5 -.-> Sem6
 
   %% === Sixth Semester ===
-  subgraph Sem6[**Semester 6**]
+  subgraph Sem6[Semester 6]
     direction TB
     PD(3325CCS-3 Parallel & Distributed Computing)
     ALG(3332CCS-3 Design & Analysis of Algorithms)
@@ -78,10 +78,10 @@ flowchart TB
     CON3(Concentration Course 3)
   end
 
-  SPACE_6(( ))
+  Sem6 -.-> Sem7
 
   %% === Seventh Semester ===
-  subgraph Sem7[**Semester 7**]
+  subgraph Sem7[Semester 7]
     direction TB
     CP(0401MHR-4 Career Preparation Skills)
     COMP(4327CCS-3 Compilers)
@@ -92,10 +92,10 @@ flowchart TB
     CON6(Concentration Course 6)
   end
 
-  SPACE_7(( ))
+  Sem7 -.-> Sem8
 
   %% === Eighth Semester (Final Training) ===
-  subgraph Sem8[**Semester 8**]
+  subgraph Sem8[Semester 8]
     direction TB
     CT(4882CCS-8 Cooperative Training)
   end
