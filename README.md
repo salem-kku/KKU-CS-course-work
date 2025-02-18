@@ -12,7 +12,7 @@ flowchart TD
 
   %% === Second Semester ===
   subgraph Semester 2
-    direction LR
+    direction TB
     IP(1312CCS-3 Introduction to Programming)
     PROB(0384MATH-3 Probability & Statistics)
     MATH2(0382MATH-3 Calculus 2)
@@ -36,7 +36,7 @@ flowchart TD
 
   %% === Fourth Semester ===
   subgraph Semester 4
-    direction LR
+    direction TB
     DS(2431CCS-4 Data Structures & Algorithms)
     OS(2323CCS-3 Operating Systems)
     SE(2341CCS-3 Software Engineering)
@@ -59,7 +59,7 @@ flowchart TD
 
   %% === Sixth Semester ===
   subgraph Semester 6
-    direction LR
+    direction TB
     PD(3325CCS-3 Parallel & Distributed Computing)
     ALG(3332CCS-3 Design & Analysis of Algorithms)
     SPM(3343CCS-3 Software Project Management)
@@ -82,25 +82,25 @@ flowchart TD
 
   %% === Eighth Semester (Final Training) ===
   subgraph Semester 8
-    direction LR
+    direction TB
     CT(4882CCS-8 Cooperative Training)
   end
 
   %% === Prerequisite Dependencies ===
-  PS --> IP;
-  IP --> OOP;
-  OOP --> DS;
-  DS --> AI;
-  OOP --> SE;
-  OOP --> AP;
-  COA --> OS;
-  OS --> PD;
-  CN --> SEC;
-  SE --> SPM;
-  AP --> WD;
-  AI --> ML;
-  PROJ --> SPM;
-  CP --> PROJ;
-  COMP --> AP;
-  IOT --> SEC;
-  CT --> CP;
+  PS --> IP
+  IP --> OOP
+  OOP --> DS
+  DS --> AI
+  OOP --> SE
+  OOP --> AP
+  COA --> OS
+  OS --> PD
+  CN --> SEC
+  SE --> SPM
+  AP --> WD
+  AI --> ML
+  PROJ --> SPM
+  CP --> PROJ
+  COMP --> AP
+  IOT --> SEC
+  CT --> CP
