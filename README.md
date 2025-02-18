@@ -44,10 +44,6 @@ This plan includes:
 
 ---
 
-### **Summer Training-1 (Proposed to be added)**
-
----
-
 ## **Third Year**
 | **Fifth Semester** | **Credit Hrs** | **Prerequisite** | **Sixth Semester** | **Credit Hrs** | **Prerequisite** |
 |--------------------|---------------|------------------|--------------------|---------------|------------------|
@@ -59,10 +55,6 @@ This plan includes:
 | 3371CCS-3 Game Design & Development | 3 | 2413CCS-4 - S | Concentration Course - 3 | 3 | - |
 | Free Course | 2 | - | **Total** | **18** | |
 | **Total** | **18** | | |
-
----
-
-### **Summer Training-2 (Proposed to be added)**
 
 ---
 
