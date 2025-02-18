@@ -4,8 +4,8 @@ graph TB;
     %% First Semester - No Prerequisites
     MOD(0212CTR-2 Moderation);
     MATH1(0381MATH-3 Calculus 1);
-    ENG1(0522ENG-5	Intensive English Program) -->|None|;
-    PS(1311CCS-3 Problem Solving & Programming) -->|None|;
+    ENG1(0522ENG-5	Intensive English Program);
+    PS(1311CCS-3 Problem Solving & Programming);
     
     %% Spacing Node to Improve Readability
     SPACE1(( )) --> MOD;
