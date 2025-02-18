@@ -8,7 +8,7 @@ graph BT;
         MOD(0212CTR-2 Moderation);
     end
 
-    SPACE_X(( )) --> First Semester
+    SPACE_X(( )) --> First Semester;
 
     %% === Second Semester ===
     subgraph Second Semester
