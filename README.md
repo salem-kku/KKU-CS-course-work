@@ -8,6 +8,8 @@ graph BT;
         MOD(0212CTR-2 Moderation);
     end
 
+    SPACE_X(( )) --> First Semester
+
     %% === Second Semester ===
     subgraph Second Semester
         IP(1312CCS-3 Introduction to Programming);
