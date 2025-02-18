@@ -95,10 +95,14 @@
 ---
 
 ### **📌 Cybersecurity Concentration (🔴 Red)**
-| **Code**  | **Course Name**                | **Credit Hrs** | **Prerequisite** |
-|----------|--------------------------------|------------|----------------|
-| 3363     | Computer & Network Security 2 | 3          | CS 3362       |
-| 3364     | Cryptography                   | 3          | MATH 0384     |
+| **Code**  | **Course Name**                             | **Credit Hrs** | **Prerequisite** |
+|----------|---------------------------------------|------------|----------------|
+| 3363     | Computer and Network Security-2      | 3          | CS 3362       |
+| 3364     | Cryptography                         | 3          | MATH 0384     |
+| 3365     | Web Security                         | 3          | CS 2314       |
+| 4366     | Digital Forensics Fundamentals       | 3          | CS 3363       |
+| 4367     | Emerging Technologies in Cybersecurity | 3        | CS 3364       |
+| 4368     | Machine Learning for Cybersecurity  | 3          | CS 3352       |
 
 ---
 
