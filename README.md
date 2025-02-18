@@ -1,15 +1,15 @@
 ```mermaid
 graph BT;
-    %% === First Year - No Prerequisites ===
-    subgraph First Year
+    %% === First Semester - No Prerequisites ===
+    subgraph First Semester
         PS(1311CCS-3 Problem Solving & Programming);
         MATH1(0381MATH-3 Calculus 1);
         ENG1(0522ENG-5 Intensive English Program);
         MOD(0212CTR-2 Moderation);
     end
 
-    %% === Second Year ===
-    subgraph Second Year
+    %% === Second Semester ===
+    subgraph Second Semester
         IP(1312CCS-3 Introduction to Programming);
         PROB(0384MATH-3 Probability & Statistics);
         MATH2(0382MATH-3 Calculus 2);
@@ -19,8 +19,8 @@ graph BT;
         ETH(4256CIS-2 Computing Ethics);
     end
 
-    %% === Third Year ===
-    subgraph Third Year
+    %% === Third Semester ===
+    subgraph Third Semester
         OOP(2413CCS-4 Object-Oriented Programming);
         DBMS(2321CIS-3 Database Management Systems);
         COA(2321CCS-3 Computer Organization & Architecture);
@@ -30,8 +30,8 @@ graph BT;
         VOL(0291VOLN-2 Volunteering Skills);
     end
 
-    %% === Fourth Year ===
-    subgraph Fourth Year
+    %% === Fourth Semester ===
+    subgraph Fourth Semester
         DS(2431CCS-4 Data Structures & Algorithms);
         OS(2323CCS-3 Operating Systems);
         SE(2341CCS-3 Software Engineering);
@@ -40,8 +40,8 @@ graph BT;
         ARAB(0221ARAB-2 Arabic Language Skills);
     end
 
-    %% === Fifth Year ===
-    subgraph Fifth Year
+    %% === Fifth Semester ===
+    subgraph Fifth Semester
         CN(2461CCS-4 Computer Networks);
         TI(3226CCS-2 Technological Innovation);
         AI(3251CCS-2 Artificial Intelligence);
@@ -51,8 +51,8 @@ graph BT;
         WD(3342CCS-3 Web Engineering);
     end
 
-    %% === Sixth Year ===
-    subgraph Sixth Year
+    %% === Sixth Semester ===
+    subgraph Sixth Semester
         PD(3325CCS-3 Parallel & Distributed Computing);
         ALG(3332CCS-3 Design & Analysis of Algorithms);
         SPM(3343CCS-3 Software Project Management);
@@ -61,8 +61,8 @@ graph BT;
         CON3(Concentration Course 3);
     end
 
-    %% === Seventh Year ===
-    subgraph Seventh Year
+    %% === Seventh Semester ===
+    subgraph Seventh Semester
         CP(0401MHR-4 Career Preparation Skills);
         COMP(4327CCS-3 Compilers);
         IOT(4342CE-3 Internet of Things);
@@ -72,8 +72,8 @@ graph BT;
         CON6(Concentration Course 6);
     end
 
-    %% === Eighth Year (Final Year) ===
-    subgraph Eighth Year
+    %% === Eighth Semester (Final Year) ===
+    subgraph Eighth Semester
         CT(4882CCS-8 Cooperative Training);
     end
 
