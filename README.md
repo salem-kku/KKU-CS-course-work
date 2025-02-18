@@ -1,8 +1,8 @@
 # Teaching course work
 ```mermaid
 graph TD;
-    CS101[Intro to CS] --> CS102[Data Structures]
-    CS102 --> CS201[Algorithms]
+    CS1311[Problem Solving & Programming]
+    CS1311 --> CS1312[Introduction to Programming]
     CS201 --> CS301[Operating Systems]
     CS201 --> CS302[Databases]
     CS301 --> CS401[Distributed Systems]
