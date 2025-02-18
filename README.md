@@ -81,6 +81,18 @@
 | 4373     | User Experience and User Interface Design     | 3          | CS 3371       |
 
 ---
+## 🎮 Gaming Concentration
+
+| **Code**  | **Course Name**                          | **Credit Hrs** | **Prerequisite** |
+|----------|------------------------------------|------------|----------------|
+| 3374     | 3D Modelling and Animation        | 3          | CS 2314       |
+| 3375     | Human-Computer Interaction        | 3          | CS 2314       |
+| 3376     | Advanced Game Development         | 3          | CS 3371       |
+| 4377     | Game Programming                  | 3          | CS 3371       |
+| 4378     | Virtual and Augmented Reality     | 3          | CS 3374       |
+| 4379     | Selected Topics in Gaming         | 3          | CS 3376       |
+
+---
 
 ### **📌 Cybersecurity Concentration (🔴 Red)**
 | **Code**  | **Course Name**                | **Credit Hrs** | **Prerequisite** |
