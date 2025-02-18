@@ -1,4 +1,18 @@
-# Bachelors (Computer Science) - Proposed Study Plan - Edition 11 (Ver 1.0)
+# 📌 Bachelors (Computer Science) - Study Plan  
+### Edition 11 (Version 1.0)  
+
+This document outlines the **official Computer Science curriculum** at **King Khalid University (KKU), Department of Computer Science**.  
+It provides a structured study plan, including **core courses, specialized concentrations, and elective options** that students must complete to earn their degree.  
+
+The curriculum is designed to cover **fundamental and advanced topics in computing**, ensuring that students gain expertise in **software development, algorithms, data structures, operating systems, artificial intelligence, cybersecurity, distributed computing, and more**.  
+
+This plan includes:  
+✅ **Full four-year semester breakdown**  
+✅ **Prerequisites for each course**  
+✅ **Specialized concentrations** (Computer Science, AI, Cybersecurity, Gaming)  
+✅ **University elective options**  
+
+---
 
 ---
 
