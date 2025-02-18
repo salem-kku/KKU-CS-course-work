@@ -5,7 +5,10 @@ flowchart TB
   PS(Problem Solving & Programming) --> IP(Introduction to Programming)
   MATH1(Calculus 1)
   ENG1(Intensive English)
-  MOD(Moderation) 
+
+  subgraph STANDALONE1[Standalone Courses]
+    MOD(Moderation)
+  end
 
   %% === Second Semester ===
   IP --> OOP(Object-Oriented Programming)
@@ -23,7 +26,10 @@ flowchart TB
   DM(Discrete Mathematics)
   SC(Science Communication)
   LA(Linear Algebra)
-  VOL(Volunteering Skills)
+
+  subgraph STANDALONE2[Standalone Courses]
+    VOL(Volunteering Skills)
+  end
 
   %% === Fourth Semester ===
   DS --> ALG(Design & Analysis of Algorithms)
@@ -31,7 +37,10 @@ flowchart TB
   SE(Software Engineering)
   AP(Advanced Programming)
   OR(Operations Research)
-  ARAB(Arabic Language Skills)
+
+  subgraph STANDALONE3[Standalone Courses]
+    ARAB(Arabic Language Skills)
+  end
 
   %% === Fifth Semester ===
   CN(Computer Networks)
@@ -49,7 +58,6 @@ flowchart TB
   CON3(Concentration Course 3)
 
   %% === Seventh Semester ===
-  CP(Career Preparation)
   COMP(Compilers)
   IOT(Internet of Things)
   PROJ(Graduation Project) --> SPM
@@ -57,8 +65,14 @@ flowchart TB
   CON5(Concentration Course 5)
   CON6(Concentration Course 6)
 
+  subgraph STANDALONE4[Standalone Courses]
+    CP(Career Preparation)
+  end
+
   %% === Eighth Semester ===
-  CT(Cooperative Training) --> CP
+  subgraph STANDALONE5[Final Training]
+    CT(Cooperative Training) --> CP
+  end
 
   %% === Prerequisite Dependencies ===
   linkStyle default stroke:#000,stroke-width:2px
@@ -81,9 +95,8 @@ flowchart TB
   CT --> CP
 
   %% === Styling for Readability ===
-  style PS fill:#f4f4f4,stroke:#333,stroke-width:2px,font-size:16px
-  style IP fill:#f4f4f4,stroke:#333,stroke-width:2px,font-size:16px
-  style OOP fill:#f4f4f4,stroke:#333,stroke-width:2px,font-size:16px
-  style DS fill:#f4f4f4,stroke:#333,stroke-width:2px,font-size:16px
-  style AI fill:#f4f4f4,stroke:#333,stroke-width:2px,font-size:16px
-  style CT fill:#ffdd57,stroke:#333,stroke-width:2px,font-size:16px
+  style STANDALONE1 fill:#f9f9f9,stroke:#333,stroke-width:2px,font-size:18px
+  style STANDALONE2 fill:#f9f9f9,stroke:#333,stroke-width:2px,font-size:18px
+  style STANDALONE3 fill:#f9f9f9,stroke:#333,stroke-width:2px,font-size:18px
+  style STANDALONE4 fill:#f9f9f9,stroke:#333,stroke-width:2px,font-size:18px
+  style STANDALONE5 fill:#ffdd57,stroke:#333,stroke-width:2px,font-size:18px
