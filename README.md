@@ -5,7 +5,7 @@ flowchart TB
   PS(Problem Solving & Programming) --> IP(Introduction to Programming)
   MATH1(Calculus 1)
   ENG1(Intensive English)
-  MOD(Moderation)
+  MOD(Moderation) 
 
   %% === Second Semester ===
   IP --> OOP(Object-Oriented Programming)
