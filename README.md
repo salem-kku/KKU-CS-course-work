@@ -106,11 +106,17 @@
 
 ---
 
-### **📌 Artificial Intelligence Concentration (🟢 Green)**
-| **Code**  | **Course Name**           | **Credit Hrs** | **Prerequisite** |
-|----------|---------------------------|------------|----------------|
-| 3353     | Deep Learning              | 3          | CS 3352       |
-| 3354     | Emerging Technologies in AI | 3          | CS 3251       |
+## 🤖 Artificial Intelligence Concentration (🟢 Green)**
+
+| **Code**  | **Course Name**                      | **Credit Hrs** | **Prerequisite** |
+|----------|--------------------------------|------------|----------------|
+| 3353     | Deep Learning                  | 3          | CS 3352       |
+| 3354     | Emerging Technologies in AI    | 3          | CS 3251       |
+| 3355     | Computer Vision                | 3          | MATH 0383     |
+| 4356     | AI Applications                | 3          | CS 3353       |
+| 4357     | Natural Language Processing    | 3          | CS 3353       |
+| 4358     | Mobile Autonomous Agents       | 3          | CS 3355       |
+
 
 ---
 
