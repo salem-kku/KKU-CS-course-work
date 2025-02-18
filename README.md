@@ -1,11 +1,11 @@
 # Teaching course work
 ```mermaid
 graph TD;
-    %% First Year - No Prerequisites
-    MOD(0212CTR-2 Moderation) -->|None| 
-    MATH1(0381MATH-3 Calculus 1) -->|None| 
-    ENG1(0522ENG-5 Intensive English Program) -->|None|
-    PS(1311CCS-3 Problem Solving & Programming) -->|None| 
+    %% First Semester - No Prerequisites
+    MOD(0212CTR-2 Moderation) --> |None|
+    MATH1(0381MATH-3 Calculus 1) --> |None|
+    ENG1(0522ENG-5 Intensive English Program) --> |None|
+    PS(1311CCS-3 Problem Solving & Programming) --> |None|
 
     %% Second Year
     ENG1 -->|S| ENG2(0292ENG-2 Specialized English Language)
