@@ -2,7 +2,7 @@
 ```mermaid
 graph TB;
     %% First Semester - No Prerequisites
-    MOD(0212CTR-2 Moderation) -->|None|;
+    MOD(0212CTR-2 Moderation) --> |None|;
     MATH1(0381MATH-3 Calculus 1) -->|None|;
     ENG1(0522ENG-5	Intensive English Program) -->|None|;
     PS(1311CCS-3 Problem Solving & Programming) -->|None|;
